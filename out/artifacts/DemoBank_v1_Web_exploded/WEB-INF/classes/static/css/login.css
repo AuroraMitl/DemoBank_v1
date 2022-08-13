@@ -1,0 +1,73 @@
+
+*{
+    box-sizing: border-box;
+}
+/*Main Body styling*/
+body{
+    height:100vh;
+    background-image: url("../images/Zuma_Bank_Login.png");
+    background-position: top 5px bottom 5px left 0 right 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: Rockwell Regular;
+    font-size: 30px;
+    color: white;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 310px 10px 10px 170px;
+    
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 800px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    margin-left: 500px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    box-shadow: 3px 3px rgb(173, 173, 173);
+    outline: 1px solid;
+  
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    
+    background-color: #ddd;
+    
+}
+
+/* Overwrite default styles of hr */
+
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 80px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 700;
+    opacity: 0.9;
+    border-radius: 55px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    padding: 250px 0 0 0;
+    text-align: center;
+}

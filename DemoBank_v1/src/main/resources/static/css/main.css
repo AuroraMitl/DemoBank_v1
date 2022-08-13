@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: PT Sans Regular;
+   
+}
+
+body{
+    background-color: rgb(211, 217, 226);
+}
+
+.conteiner{
+    margin: 2px;
+ }
+
+ .conteiner-total{
+    margin: 5px 450px 5px 0px;
+ }
+
+.conteiner-below{
+   
+    margin: 50px 500px;
+    width: 1000px;
+   
+}
+
+.main-page-header{
+    padding: 20px 30px 20px 20px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 500px;
+    font-size: 30px;
+    
+}
+
+.main-page-header .company-name{
+    margin-left: 30px;
+    color:aliceblue;
+}
+
+.navigation{
+    font-size: 20px;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+}
+
+.navigation li{
+    display: inline-block;
+    list-style-type:none;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.navigation li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.display-name i{
+
+font-size: 20px;
+margin: 30px;
+}
+.display-name a{
+    font-weight: 200px;
+    font-size: 30px;
+   
+    color: chartreuse;
+    }
+
+    #transact-btn{
+        margin: 10px 370px 10px 10px;
+        background-color: #FFB114;
+        border: 1px solid #543800;
+    }
+    #add-account-btn{
+        margin:10px 500px 10px;
+        background-color: #FF4E00;
+        border: 1px solid #8B2B00;
+        color: aliceblue;
+    }
+
+    #add-account-btn-below{
+        margin:7px 20px;
+        background-color: #FF4E00;
+        border: 1px solid #8B2B00;
+        color: aliceblue;
+    }
+
+
+   #accordionFlushExample{
+       
+        margin: 10px 500px;
+        width: 1000px;
+       
+    }
+    .card-title{
+        margin: 0;
+       
+        
+     }
+
+ .card-title i{
+    margin: 5px;
+    
+ }
+.card-text{
+    margin: 25px;
+ }
+ #card-body{
+    margin: 10px; 
+    padding: 5px;
+
+ }
+
+ .offcanvas{
+    background-image: url("../JAVA_Bank/Zuma_Bank_offcanvas.png");
+}

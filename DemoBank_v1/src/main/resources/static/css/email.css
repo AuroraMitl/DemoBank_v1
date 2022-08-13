@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Rockwell Regular;
+}
+
+
+/*main body*/
+body{
+    height: 100vh;
+    background-color: rgb(212, 222, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*<!--wrpper-->*/
+.wrapper{
+    width: 650px;
+    height: auto;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+/*email MSG Header*/
+.email-msg-header{
+    text-align: center;
+}
+
+/*company name*/
+.company-name{
+    text-align: center;
+    color: grey;
+    font-size: 35px;
+}
+
+/*welcome*/
+.welcome-text{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+}
+
+/*account button*/
+.verify-account-btn{
+    
+    padding:10px 15px 20px 20px;
+    padding-left: center;
+    background-color: rgb(0, 109, 252);
+    color:white;
+    border-radius: 15px;
+}
+
+.copy-right{
+    text-align: center;
+    padding:15px;
+    color:grey;
+    font-size:14px;
+    margin: 15px 0px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
